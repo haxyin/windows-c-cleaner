@@ -1,0 +1,19 @@
+# build output
+*.exe
+*.log
+
+# local run artefacts
+logs/
+CleanC.log
+
+# icon workshop scratch: the MDI webfont is 5.7 MB and can be re-fetched,
+# the preview renders are throwaway
+icon/mdi/
+icon/preview/
+
+__pycache__/
+*.pyc
+
+# one-off cleanup scripts from the session that produced this tool -
+# machine-specific, kept local on purpose
+scripts/
